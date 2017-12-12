@@ -7,7 +7,7 @@ contract QuerySensor is usingOraclize {
     event queryStr(string qr);
 
   	function QuerySensor() {
-       //
+       oraclize_setCustomGasPrice(1000000000 wei);
     }
 
 	function __callback(bytes32 myid, string result) {
