@@ -8,5 +8,5 @@ module.exports = {
     }
   }
 };
-
+//this should be runned on web3js console before attemping to deploy the contract
 //web3.personal.unlockAccount('0xfE19F4197FFE5c2A1C1D7f051c77637959d8FFc7','#####');
